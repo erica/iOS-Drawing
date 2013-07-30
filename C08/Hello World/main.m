@@ -225,7 +225,7 @@
 {
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     TestBedViewController *tbvc = [[TestBedViewController alloc] init];
-    tbvc.edgesForExtendedLayout = UIExtendedEdgeNone;
+    tbvc.edgesForExtendedLayout = UIRectEdgeNone;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tbvc];
     _window.rootViewController = nav;
     [_window makeKeyAndVisible];
